@@ -1,0 +1,785 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color of Input filled */
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #04305c !important;
+}
+
+nav {
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
+  font-family: "Noto Sans", sans-serif;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.backText {
+  display: flex;
+  font-family: "Noto Sans", sans-serif;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 110%;
+  margin-left: 5px;
+  color: #052f5f;
+}
+
+.backArrow {
+  display: flex;
+}
+
+.backDiv {
+  display: flex;
+  margin: 20px;
+  margin-top: 23px;
+  margin-right: auto;
+}
+
+.ZfundsImg {
+  display: flex;
+  width: 96px;
+  height: 47.59px;
+  margin: auto;
+  justify-content: center;
+}
+
+.mainDiv {
+  display: flex;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.right_tools {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.cart {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 16.13px;
+  height: 15.38px;
+  margin-left: 23px;
+}
+
+.ZfundsDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 13.21px;
+  height: 13.21px;
+}
+
+/* First Page  */
+
+.complete_box {
+  display: flex;
+  margin: auto;
+  margin-top: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #32547c;
+  width: 230px;
+  height: 77px;
+}
+
+.complete_text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+
+  color: #f1e2e2;
+}
+
+/* Secound Header */
+
+.heading_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 16px 16px;
+  gap: 10px;
+  background: #ffffff;
+}
+
+.heading_title {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.015em;
+
+  color: #052f5f;
+}
+
+.heading_2_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16;
+  padding: 8px 16px;
+  gap: 10px;
+  background: #eff3f6;
+  width: 100%;
+}
+
+.heading_2_title {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #052f5f;
+}
+
+.heading_description {
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+/* Second Page */
+
+.marital_status_head {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.015em;
+  color: #052f5f;
+
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.marital_status_option {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.marital_option1 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 63px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+.marital_option2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+/* .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #04305c !important;
+} */
+
+.input_Field_Div {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.input_Head {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #052f5f;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+
+  width: 330px;
+  height: 56px;
+
+  background: #ffffff;
+  border: 1px solid #8e959f;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.inputfield::placeholder {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-decoration: none;
+
+  letter-spacing: 0.015em;
+
+  color: #cdcdcd;
+}
+
+.statementText {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #8e959f;
+  margin-left: 16px;
+}
+
+/* Email Address Auto Complete */
+
+/* .css-1gjgmky-MuiToggleButtonGroup-root */
+.MuiToggleButtonGroup-grouped:not(:last-of-type),
+.MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  border: 1px solid #32547c !important;
+}
+
+.css-1gjgmky-MuiToggleButtonGroup-root,
+.MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  /* margin-left: 0 !important;
+  border-left: 0 solid transparent !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important; */
+  /* margin-right: 6px !important; */
+  /* margin-left: 6px !important; */
+  /* margin-top: 8px !important; */
+  /* border-radius: 8px !important;  */
+}
+
+/* .css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected{
+  
+} */
+
+.autoCompleteContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16px;
+  margin-right: 14px;
+  width: 390px !important;
+  height: 100px !important;
+}
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected:hover {
+  background-color: #32547c !important;
+}
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  color: rgb(255, 255, 255) !important;
+  background-color: #32547c !important;
+}
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root {
+  color: #32547c !important;
+}
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root {
+  padding: 4px 16px !important;
+  gap: 10px !important;
+  margin-right: 6px !important;
+  margin-left: 0px !important;
+  margin-top: 8px !important;
+  width: fit-content !important;
+  height: fit-content !important;
+
+  background: #32547c;
+  border-radius: 8px !important;
+
+  font-family: "Noto Sans" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 24px !important;
+
+  text-transform: lowercase !important;
+
+  border: 1px solid #32547c !important;
+}
+
+.incomeContainer {
+  margin-top: 13px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+.incomeText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+.incomeOption {
+  margin-bottom: -4 !important;
+  margin-top: 0 !important;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #04305c !important;
+}
+
+/* End Buttons */
+
+.nextText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 12px 0;
+}
+
+.nextBox,
+.skipBox {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  margin: auto !important;
+  align-items: center !important;
+  padding: 8px 0px !important;
+  gap: 10px !important;
+
+  background: #052f5f;
+  border-radius: 4px !important;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.skipBox {
+  background-color: #ffffff !important;
+  margin-bottom: 5px !important;
+}
+
+.skipText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: center;
+
+  margin: 12px 0 !important;
+  color: rgba(5, 47, 95, 0.6);
+}
+
+.css-zddlty-MuiButtonBase-root-MuiButton-root {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  margin: auto !important;
+  align-items: center !important;
+  padding: 8px 0px !important;
+  gap: 10px !important;
+
+  background: #052f5f !important;
+  border-radius: 4px !important;
+  width: 85% !important;
+  max-width: 360px;
+}
+
+.endBtn {
+  position: relative;
+  top: 100%;
+  transform: translateY(40%);
+}
+
+/* .MainContent2{
+    align-items: center;
+  } */
+
+/* .inner {
+  display: inline-block;
+}  */
+
+/* Third Page */
+
+/* Upload Compounts */
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 16px 11px;
+}
+
+.uploadBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px 8px;
+  gap: 4px;
+
+  background-color: #ffffff;
+}
+
+.panHead {
+  margin-top: 12px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+.panDes {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  letter-spacing: 0.02em;
+
+  color: #052f5f;
+}
+
+.panDetail {
+  margin-bottom: 10px;
+  padding-right: 0;
+}
+
+.uploadImg {
+}
+
+.spreatorLine {
+  width: auto;
+  height: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #cdcdcd;
+
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/* Fourth Page */
+
+.declaration {
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+
+.decHead {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #052f5f;
+
+  margin-bottom: 8px;
+}
+
+/* Switch Box */
+
+.switchText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+.switchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  width: auto;
+}
+
+/* .css-j204z7-MuiFormControlLabel-root{
+  margin-right: 0 !important;
+  color: #052F5F;
+} */
+
+.css-113qkos-MuiSwitch-root
+  .MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  background-color: #052f5f !important;
+}
+
+/* Fivth Page */
+
+.detailsBox {
+  margin-right: 16px;
+  margin-left: 16px;
+  width: auto;
+}
+
+.userDetails {
+  position: relative;
+  overflow: hidden;
+  margin-top: 24px;
+  padding: 8px 16px;
+  background: #ffffff;
+  border: 1px solid #8e959f;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userHead {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+.upperText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.02em;
+
+  color: #8e959f;
+}
+
+.section {
+  margin-top: 8px;
+}
+
+.lowerText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.015em;
+
+  color: #052f5f;
+}
+
+.textSection {
+  display: flex;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.editIcon {
+  display: flex;
+  justify-content: flex-end;
+  float: top;
+  width: 41px;
+  height: 24px;
+}
+
+.editIcon:hover {
+  cursor: pointer;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 65px;
+  padding-right: 12px;
+
+  width: auto;
+  height: 64px;
+
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-bottom: -8px;
+  margin-top: 16px;
+
+  background: #f0f3f5;
+}
+
+.bottomText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  letter-spacing: 0.02em;
+
+  color: #052f5f;
+}
+
+@media screen and (min-width: 603px) {
+  .bottomBox {
+    width: 200%;
+  }
+}
+
+.secLR {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secRight {
+  /* margin-left: auto; */
+  /* margin-right: 60px; */
+}
+
+.secRight {
+  position: absolute;
+  right: 0;
+  margin-right: 60px;
+  bottom: 9px;
+}
+
+.editImg {
+  display: flex;
+  justify-content: flex-end;
+  width: 41px;
+  height: 24px;
+}
+
+.editImg:hover {
+  cursor: pointer;
+}
+
+/* Document Section */
+
+.docText {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-top: 24px;
+
+  color: rgba(5, 47, 95, 0.6);
+}
+
+.docImg {
+  display: flex;
+  margin-top: 8px;
+  width: 88px;
+  height: 72px;
+}
+
+.docBox {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5px;
+}
+
+.docContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.userHead {
+  display: flex;
+}
+
+.tick {
+  margin-top: 24px;
+  margin-left: 1px;
+  margin-bottom: 14px;
+}
+
+.tickLabel {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.02em;
+
+  color: rgba(5, 47, 95, 0.6);
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+  color: #03b38d !important;
+}
