@@ -5,6 +5,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import EndButtons from "./Small Components/EndButtons";
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function KYCDetails() {
   const navigate = useNavigate();
@@ -33,10 +34,11 @@ function KYCDetails() {
               <div className="lowerText">Tanvi Jadhav</div>
             </div>
           </div>
-          <div className="editIcon">
+          <div className="editIcon" >
             <img src="./Images/Edit.png" alt="Edit Logo" />
           </div>
         </div>
+
 
         <div className="userDetails">
           <div className="textSection">

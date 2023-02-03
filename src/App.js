@@ -23,10 +23,10 @@ function App() {
         <Route path="/Declaration" element={<Declaration />} />
 
         <Route path="/KYCDetails" element={<KYCDetails />} />
-        
-        <Route path="/Completed" element={<Completed />} />
 
+        <Route path="/Completed" element={<Completed />} />
       </Routes>
+
     </>
   );
 }

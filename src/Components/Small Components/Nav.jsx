@@ -1,14 +1,17 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+
 
 function Nav() {
+  const navigate = useNavigate();
   return (
     <>
       <nav>
       <div className='mainDiv'>
         <div
-        to="/"
-        className='backDiv'>
+        className='backDiv'
+        onClick={()=>{navigate(-1)}}
+        >
           <img
            className='backArrow'
            src="./Images/Vector (Stroke).png" alt="back button" />

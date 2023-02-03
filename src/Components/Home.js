@@ -6,14 +6,16 @@ function Home() {
 
   return (
     <>
-      <div className="complete_box">
-        <div
-          className="complete_text"
-          onClick={() => {
-            navigate("/PersonalDetails", { replace: true });
-          }}
-        >
-          Complete KYC
+      <div className="cBCenter">
+        <div className="complete_box">
+          <div
+            className="complete_text"
+            onClick={() => {
+              navigate("/PersonalDetails", { replace: true });
+            }}
+          >
+            Complete KYC
+          </div>
         </div>
       </div>
     </>

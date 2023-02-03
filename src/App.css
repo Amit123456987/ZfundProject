@@ -40,6 +40,7 @@ nav {
   margin: 20px;
   margin-top: 23px;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .ZfundsImg {
@@ -85,12 +86,12 @@ nav {
   height: 13.21px;
 }
 
-/* First Page  */
+/* Home Page  */
 
 .complete_box {
   display: flex;
   margin: auto;
-  margin-top: 50%;
+  /* margin-top: 50%; */
   justify-content: center;
   align-items: center;
   background-color: #32547c;
@@ -168,7 +169,7 @@ nav {
   color: #052f5f;
 }
 
-/* Second Page */
+/* Personal Details Page */
 
 .marital_status_head {
   font-family: "Noto Sans";
@@ -455,13 +456,26 @@ nav {
   display: inline-block;
 }  */
 
-/* Third Page */
+/* Document Page */
 
 /* Upload Compounts */
+
+.cBCenter {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .uploadContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px 16px 11px;
 }
 
@@ -469,9 +483,8 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 16px 0px 8px;
-  gap: 4px;
-
   background-color: #ffffff;
 }
 
@@ -506,6 +519,7 @@ nav {
 }
 
 .uploadImg {
+  cursor: pointer;
 }
 
 .spreatorLine {
@@ -519,7 +533,7 @@ nav {
   margin-right: 16px;
 }
 
-/* Fourth Page */
+/* Declaration Page */
 
 .declaration {
   padding-top: 24px;
@@ -573,7 +587,7 @@ nav {
   background-color: #052f5f !important;
 }
 
-/* Fivth Page */
+/* Kyc Details Page */
 
 .detailsBox {
   margin-right: 16px;
